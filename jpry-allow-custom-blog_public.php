@@ -11,6 +11,10 @@
 // The is_wpe_snapshot() determines whether we're on the staging site or production site. 
 if ( function_exists( 'is_wpe_snapshot' ) ) {
      if ( is_wpe_snapshot() ) {
-         remove_filter( 'pre_option_blog_public', 'wpe_filter_privacy_option' );
+          if ( has_filter( 'pre_option_blog_public', 'wpe_filter_privacy_option' ) ) {
+               remove_filter( 'pre_option_blog_public', 'wpe_filter_privacy_option' );
+          } elseif ( has_filter( 'pre_option_blog_public', '__return_zero' ) ) {
+               remove_filter( 'pre_option_blog_public', '__return_zero' );
+          }
      }
 }

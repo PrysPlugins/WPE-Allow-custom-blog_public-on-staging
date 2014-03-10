@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/JCPry/WPE-Allow-custom-blog_public-on-staging
  * Description: This plugin allows you to set your own blog_public option on a WP Engine Staging site. <strong>Use with care, as this could allow your site to be indexed by Search Engines</strong>
  * Version: 1.0
- * Author: Jeremy Pry <jeremy@wpengine.com>
+ * Author: Jeremy Pry
  * Author URI: http://jeremypry.com/
  * License: GPL-2.0+
  */

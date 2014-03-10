@@ -6,7 +6,7 @@
  * Version: 1.0
  * Author: Jeremy Pry <jeremy@wpengine.com>
  * Author URI: http://jeremypry.com/
- * License: GPL3
+ * License: GPL-2.0+
  */
 
 // The is_wpe_snapshot() determines whether we're on the staging site or production site. 

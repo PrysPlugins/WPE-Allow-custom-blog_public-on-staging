@@ -8,6 +8,11 @@
  * Author URI: http://jeremypry.com/
  * License: GPL-2.0+
  */
+ 
+ // Prevent direct access to this file.
+ if ( ! defined( 'ABSPATH' ) ) {
+      die( "You can't do anything by accessing this file directly!" );
+ }
 
 // The is_wpe_snapshot() determines whether we're on the staging site or production site. 
 if ( function_exists( 'is_wpe_snapshot' ) ) {
